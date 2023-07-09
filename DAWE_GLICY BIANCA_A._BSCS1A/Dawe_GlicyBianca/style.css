@@ -1,0 +1,137 @@
+* {
+    list-style: none;
+}
+body { 
+    background-image: url('imagebg.jpg');
+    background-position: top right;
+    background-size: cover;
+    height: 100%;
+    margin-top: 105px;
+    margin-left: 150px;
+}
+
+h1 {
+    font-family: Verdana;
+    font-size: 60px;
+    color: #423D3A;
+    margin-left: 3%;
+}
+
+p {
+    font-family: Verdana;
+    font-size: 20px;
+    color: #423D3A;
+    margin-left: 4%;
+}
+
+div {
+    color: #E4E4D2;
+    font-family: Verdana;
+}
+
+nav ul {
+    float: left;
+    margin-left: 0px;
+}
+
+nav li {
+    display: inline-block;
+    margin: 0 8pxS;
+}
+
+
+.topnav {
+    overflow: hidden;
+}
+
+.topnav a {
+    color: #423D3A;
+    text-align: center;
+    padding: 10px 12px;
+    font-size: 17px;
+}
+
+.topnav a:hover {
+    color: black;
+    border: 1px solid #423D3A
+}
+
+.topnav a.active {
+    background-color: #434347;
+    color: #FFFBFA
+}
+
+footer {
+    font-size: 5px;
+    text-align: center;
+    margin-top: 105px;
+    margin-right: 50px;
+}
+
+ @media (max-width: 1024px) {
+    h1 {
+            font-family: Verdana;
+            font-size: 50px;
+            color: #423D3A;
+            margin-left: 1%;
+        }
+    
+        p {
+            font-family: Verdana;
+            font-size: 20px;
+            color: #423D3A;
+            margin-left: 2%;
+        }
+
+        .topnav a {
+            color: #423D3A;
+            text-align: center;
+            padding: 10px 12px;
+            font-size: 15px;
+        }
+        body {
+            background-image: url('imgbg.jpg');
+            background-position: top right;
+            background-size: cover;
+            height: 100%;
+            margin-top: 105px;
+            margin-left: 150px;
+        }
+    } 
+
+  @media (max-width: 600px) {
+    h1 {
+            font-family: Verdana;
+            font-size: 30px;
+            color: #423D3A;
+            margin-left: none;
+            text-align: center;
+        }
+    
+        p {
+            font-family: Verdana;
+            font-size: 14px;
+            color: #423D3A;
+            margin-left: none;
+            text-align: center;
+        }
+
+                .mainMenu {
+                float: left;
+                }
+    
+        .topnav a {
+            color: #423D3A;
+            text-align: center;
+            font-size: 12px;
+        }
+    
+        body {
+            background-image: url('imgbg.jpg');
+            background-position: top right;
+            background-size: cover;
+            height: 100%;
+            margin-top: 105px;
+            margin-left: 150px;
+        }
+}

@@ -1,0 +1,147 @@
+
+
+body {
+    background-image: url('background.jpg');
+    height: 100%;
+    background-size: cover;
+    margin-top: 105px;
+    margin-left: 150px;
+}
+
+h1 {
+    font-family: Verdana;
+    font-size: 35px;
+    color: #423D3A;
+    margin-left: 4%;
+}
+
+nav ul {
+    float: left;
+    margin-left: 0px;
+}
+
+nav li {
+    display: inline-block;
+    margin: 0 8pxS;
+}
+
+.sticky {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    background-color: #FFFBFA;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.img-container {
+    margin-top: 15px;
+    margin-left: 3%;
+    float: left;
+    padding: 20px;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+img {
+    margin-top: 15px;
+    border-radius: 15px;
+}
+
+
+p {
+    margin-left: 15px;
+    font-family: Verdana;
+    color: #423D3A;
+}
+
+div {
+    font-family: Verdana;
+    color: #E4E4D2;
+}
+
+.topnav {
+    overflow: hidden;
+}
+
+.topnav a {
+    color: #423D3A;
+    text-align: center;
+    padding: 10px 12px;
+    font-size: 17px;
+}
+
+.topnav a:hover {
+    color: black;
+    border: 1px solid #423D3A
+}
+
+.topnav a.active {
+    background-color: #434347;
+    color: #FFFBFA
+}
+
+@media (max-width: 1024px) {
+    h1 {
+            font-family: Verdana;
+            font-size: 40px;
+            color: #423D3A;
+            margin-left: 4%;
+        }
+    
+        h2 {
+            font-family: Verdana;
+            color: #423D3A;
+            margin-left: 4%;
+            font-size: 25px;
+
+
+    .topnav a {
+            color: #423D3A;
+            text-align: center;
+            padding: 10px 12px;
+            font-size: 15px;
+        }
+
+                .img-container {
+                    margin-top: 15px;
+                    margin-left: 3%;
+                    float: left;
+                    padding: 20px;
+                    grid-template-columns: auto;
+                }
+}
+
+@media (max-width: 600px) {
+
+    h1 {
+            font-family: Verdana;
+            font-size: 25px;
+            color: #423D3A;
+            margin-left: 4%;
+            text-align: center;
+        }
+    
+        h2 {
+            font-family: Verdana;
+            color: #423D3A;
+            margin-left: none;
+            font-size: 20px;
+            text-align: center;
+        }
+        
+        .topnav a {
+            color: #423D3A;
+            text-align: center;
+            font-size: 12px;
+
+        
+    }
+}
+}
